@@ -18,6 +18,18 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+## Local environment
+
+Create a `.env.local` file in the project root and add your Supabase values:
+
+```text
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+GEMINI_API_KEY=
+```
+
+The Supabase values are used by the browser client. `GEMINI_API_KEY` is server-only; never rename it to a `NEXT_PUBLIC_` variable. Keep `.env.local` private; it is ignored by Git. Restart the development server after changing environment values. AI study plans send the subject, goal, and available minutes to Gemini. File contents are sent only when a signed-in user selects specific files from the local study shelf and submits a plan. If Gemini is unavailable or not configured, the dashboard uses its on-device planner, without uploaded files.
+
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
