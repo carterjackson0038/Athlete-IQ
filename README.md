@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+Initial Ideas: 6/26/26
+I want to create an app that is in the realm of a study tool that is catered for student athletes to have a more entertaining and “fun” experience while studying for school tests and assignments. The idea behind it is the student/user will create an account, import study guides or slideshows as a pdf or pictures. The user/student will also state when the test is and the overall subject. Then AthleteIQ will generate a “season” of what the student should do each day to prepare for the test or assignment based on the amount of time the user inputs and how prepared the user states they are.
+
+My goal with the app:
+Help students actually learn by using ai as a tool and study the same way athletes prepare for competition. AthleteIQ isn’t just ai its an online coach.
+
+I also want to be able to add this to my resume as a strong app/project I have created and become a better software engineer in the process.
+
+
+
 ## Getting Started
 
 First, run the development server:
